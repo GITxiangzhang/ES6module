@@ -7,11 +7,6 @@ export function circle(r){
     return PI*r*r;
 }
 
-/*module.exports=circle;
-module.exports=PI;*/
-console.log(this)
-console.log(module)
-
 
 /*
 var PI=3.1415;
