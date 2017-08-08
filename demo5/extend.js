@@ -38,4 +38,7 @@ console.log(baz);*/
 
 /*var fs=require('fs');
 console.log(fs)*/
-import * as allfs from 'fs';
+/*import * as allfs from 'fs';*/
+
+var dexport=require('./export-default');
+console.log(dexport);

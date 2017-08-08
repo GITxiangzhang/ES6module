@@ -5,6 +5,6 @@ import * as expt2 from './extend'
 
 console.log(expt2.PI);
 console.log(expt2.circle(2));
-console.log(expt2.default());
+console.log(expt2.foo());
 
 

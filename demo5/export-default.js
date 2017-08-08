@@ -1,4 +1,4 @@
-/*//不能混合应用
+//不能混合应用
 export default function foo() {
     console.log('foo');
 };
@@ -7,15 +7,16 @@ export function circle(r){
     return PI*r*r;
 }
 
-/!*module.exports=circle;
-module.exports=PI;*!/
+/*module.exports=circle;
+module.exports=PI;*/
 console.log(this)
-console.log(module)*/
+console.log(module)
 
 
+/*
 var PI=3.1415;
 function circle(r){
     return PI*r*r;
 }
 module.exports=circle;
-module.exports=PI;
+module.exports=PI;*/

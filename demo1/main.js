@@ -1,10 +1,10 @@
 var examples=require('./example.js').message="hello";
-var fs=require('fs');
+/*var fs=require('fs');*/
 delete require.cache[require.resolve('./example.js')];
 examples=require('./example.js');
-console.log(fs);
+/*console.log(fs);*/
 
-
+console.log(examples.message)
 /*console.log(examples);
 console.log(this);
 console.log("x:"+examples.x);
